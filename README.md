@@ -1,13 +1,13 @@
-<h1>Acitivity Tracking Reacjs(FrontEnd)<h1>
+<h1>Acitivity Tracking Reacjs(FrontEnd)</h1>
 
 
-<h3>Demo<h3>
+<h1>Demo</h1>
 
 ![](Activity_tracker_upload.gif)
 
 
 
-<h3>What is the use of this Repo<h3>
+<h1>What is the use of this Repo</h1>
 This Project is a Acitivity Tracking ReactJS Project which demonstrates the following
 
 User are fetched from an backend API. 
@@ -19,11 +19,11 @@ The peroid of activities are fetched from Backend API.
 Search option is also provided to find a particular user.
 This application only supports desktop and ipad.
 
-<h3>Live Application URL<h3>
+<h1>Live Application URL</h1>
 https://throttle-activity-tracker.herokuapp.com/
 This URL has the application deployed in
 
-<h3>Prerequisites<h3>
+<h1>Prerequisites</h1>
 Install Node JS
 Refer to https://nodejs.org/en/ to install nodejs
 
@@ -47,7 +47,7 @@ HTTP client
 axios library is used to make HTTP Calls
 
 
-<h3>Resources<h3>
+<h1>Resources</h1>
 create-react-app : The following link has all the commands that can be used with create-react-app https://github.com/facebook/create-react-app
 
 ReactJS : Refer to https://reactjs.org/ to understand the concepts of ReactJS
