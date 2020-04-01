@@ -13,15 +13,14 @@ This Project is a Acitivity Tracking ReactJS Project which demonstrates the foll
 User are fetched from an backend API. 
 Then they are display in a list format. 
 It includes basci pagination for group of Users.
-When a particualr user is clicked a calender is open.
-It provides the period of activities ofthe current user.
+When a particualr user is clicked a calender is opened.
+It provides the period of activities of the current user.
 The peroid of activities are fetched from Backend API.
 Search option is also provided to find a particular user.
 This application only supports desktop and ipad.
 
 <h1>Live Application URL</h1>
 https://throttle-activity-tracker.herokuapp.com/
-This URL has the application deployed in
 
 <h1>Prerequisites</h1>
 Install Node JS
