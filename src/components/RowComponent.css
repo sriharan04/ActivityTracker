@@ -1,0 +1,43 @@
+.section_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0.2rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.5rem;
+  transition: 0.5s all ease-in;
+  cursor: pointer;
+}
+.section_list:hover {
+  background-color: #232c2d;
+}
+.section_list_profile {
+  padding: 1rem;
+  background-color: whitesmoke;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 3rem;
+  border: 2px solid lightskyblue;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.section_list_profile:hover {
+  background-color: lightskyblue;
+}
+.profile_name {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.profile_short {
+  height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  position: absolute;
+  left: 1.2rem;
+  bottom: 1.4rem;
+}

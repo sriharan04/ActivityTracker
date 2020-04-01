@@ -1,0 +1,23 @@
+.pagination {
+  margin-top: 25px;
+  text-decoration: none;
+  list-style: none;
+}
+.page_item {
+  cursor: pointer;
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.page_item:hover {
+  background-color: lightskyblue;
+}
+
+.page_link {
+  text-decoration: none;
+  color: white;
+}

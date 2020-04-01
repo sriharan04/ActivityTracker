@@ -1,0 +1,130 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+.main_header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 5rem);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(73, 75, 75, 0.829),
+      rgba(4, 18, 20, 0.671)
+    ),
+    url("../assets/tech-meeting-flatlay.jpg");
+  background-size: cover;
+}
+.main_header_h {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-top: 0.3rem;
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+}
+.main_header_text {
+  text-align: center;
+  margin: 10px;
+}
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.1em;
+  stroke-width: 0;
+  stroke: whitesmoke;
+  fill: whitesmoke;
+  padding: 0.5rem;
+}
+.main_icon {
+  margin-top: 0.6rem;
+}
+img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.main_header_h_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main_header_search {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 5;
+  grid-column-end: 10;
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.search_input {
+  height: 1rem;
+  width: 18rem;
+  border: transparent;
+  padding: 0.8rem;
+  background-color: whitesmoke;
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+}
+.main_section_head {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+
+.main_section {
+  grid-row-start: 4;
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+.section_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: whitesmoke;
+  transition: 2s all ease-out;
+  position: relative;
+}
+
+.main_section_content {
+  height: 25rem;
+  width: 60rem;
+  transition: 2s all ease-out;
+}
+
+.main_section_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 6rem);
+  grid-column-gap: 10rem;
+  grid-auto-flow: dense;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1rem;
+  padding: 2rem;
+  transition: 2s all ease-out;
+}
+.pagination {
+  grid-row-start: 12;
+  grid-row-end: 13;
+  grid-column-start: 5;
+  grid-column-end: 13;
+  margin-bottom: 1rem;
+}
+
+.users {
+  height: 4rem;
+  width: 4rem;
+  filter: invert(1);
+  padding-right: 1rem;
+  margin-top: 2.5rem;
+}
